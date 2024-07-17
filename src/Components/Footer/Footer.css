@@ -1,0 +1,29 @@
+.Footer__span {
+    background: #ff0000 none repeat scroll 0 0;
+    display: block; 
+    height: 1px;
+    margin-top: 25px;
+    position: relative;
+    width: 50%;
+}
+.Footer__span::after {
+    background: inherit;
+    content: "";
+    height: inherit;    
+    position: absolute;
+    top: -4px;
+    width: 50%;
+}
+.Footer__span,.Footer__span::after {
+    margin-left: 0;
+    left: 0;
+    right: 0;   
+}
+.Footer_Main{
+    border-top: solid 1px black;
+}
+.footer-copyright {
+    bottom: 0;
+    width: 100%;
+    border-top: solid 1px black;
+  }
