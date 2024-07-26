@@ -21,6 +21,7 @@
 }
 .Footer_Main{
     border-top: solid 1px black;
+    width: 100%;
 }
 .footer-copyright {
     bottom: 0;

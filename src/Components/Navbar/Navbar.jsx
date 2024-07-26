@@ -6,7 +6,6 @@ import { IoHome } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
 import { FaUser } from "react-icons/fa";
 import { AiFillProject } from "react-icons/ai";
-import { IoMdSchool } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 import { GiSkills } from "react-icons/gi";
@@ -16,9 +15,13 @@ export default function Navbar() {
 
   const MenuContent = (
     <div className="Nav__Menu__Content__Main">
-      <Container style={{ marginBottom: "20px" }}>
+      <Container style={{ marginBottom: "10px" }}>
         <div className="Nav__Menu__Content flex-column color-white">
-          <span>
+          <span
+            style={{
+              margin: "10px 0",
+            }}
+          >
             <Link
               to="/"
               className="flex-row align-center gap-10 txt-dec color-white"
@@ -32,49 +35,17 @@ export default function Navbar() {
             </Link>
           </span>
 
-          <span>
-            <ScrollLink
-              to="skill"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-              className="flex-row align-center gap-10 txt-dec color-white cursor-pointer"
-            >
-              <div>
-                <GiSkills />
-              </div>
-              <div>
-                <p>Skills</p>
-              </div>
-            </ScrollLink>
-          </span>
-
-          <span>
-            <ScrollLink
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={500}
-              className="flex-row align-center gap-10 txt-dec color-white cursor-pointer"
-            >
-              <div>
-                <AiFillProject />
-              </div>
-              <div>
-                <p>Projects</p>
-              </div>
-            </ScrollLink>
-          </span>
-
-          <span>
+          <span
+            style={{
+              margin: "10px 0",
+            }}
+          >
             <ScrollLink
               to="about"
               spy={true}
               smooth={true}
-              offset={-110}
-              duration={500}
+              offset={-20}
+              duration={1000}
               className="flex-row align-center gap-10 txt-dec color-white cursor-pointer"
             >
               <div>
@@ -86,13 +57,61 @@ export default function Navbar() {
             </ScrollLink>
           </span>
 
-          <span>
+          <span
+            style={{
+              margin: "10px 0",
+            }}
+          >
+            <ScrollLink
+              to="skill"
+              spy={true}
+              smooth={true}
+              offset={-20}
+              duration={1000}
+              className="flex-row align-center gap-10 txt-dec color-white cursor-pointer"
+            >
+              <div>
+                <GiSkills />
+              </div>
+              <div>
+                <p>Skills</p>
+              </div>
+            </ScrollLink>
+          </span>
+
+          <span
+            style={{
+              margin: "10px 0",
+            }}
+          >
+            <ScrollLink
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-20}
+              duration={1000}
+              className="flex-row align-center gap-10 txt-dec color-white cursor-pointer"
+            >
+              <div>
+                <AiFillProject />
+              </div>
+              <div>
+                <p>Projects</p>
+              </div>
+            </ScrollLink>
+          </span>
+
+          <span
+            style={{
+              margin: "10px 0",
+            }}
+          >
             <ScrollLink
               to="footer"
               spy={true}
               smooth={true}
-              offset={-100}
-              duration={500}
+              offset={-20}
+              duration={1000}
               className="flex-row align-center gap-10 txt-dec color-white cursor-pointer"
             >
               <div>
@@ -138,11 +157,29 @@ export default function Navbar() {
 
                 <span>
                   <ScrollLink
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={1000}
+                    className="flex-row justify-center align-center gap-10 txt-dec color-white cursor-pointer"
+                  >
+                    <div>
+                      <FaUser />
+                    </div>
+                    <div>
+                      <p>About</p>
+                    </div>
+                  </ScrollLink>
+                </span>
+
+                <span>
+                  <ScrollLink
                     to="skill"
                     spy={true}
                     smooth={true}
-                    offset={-150}
-                    duration={500}
+                    offset={-20}
+                    duration={1000}
                     className="flex-row justify-center align-center gap-10 txt-dec color-white cursor-pointer"
                   >
                     <div>
@@ -159,8 +196,8 @@ export default function Navbar() {
                     to="projects"
                     spy={true}
                     smooth={true}
-                    offset={-150}
-                    duration={500}
+                    offset={-20}
+                    duration={1000}
                     className="flex-row align-center gap-10 txt-dec color-white cursor-pointer"
                   >
                     <div>
@@ -174,29 +211,11 @@ export default function Navbar() {
 
                 <span>
                   <ScrollLink
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={-175}
-                    duration={500}
-                    className="flex-row justify-center align-center gap-10 txt-dec color-white cursor-pointer"
-                  >
-                    <div>
-                      <FaUser />
-                    </div>
-                    <div>
-                      <p>About</p>
-                    </div>
-                  </ScrollLink>
-                </span>
-
-                <span>
-                  <ScrollLink
                     to="footer"
                     spy={true}
                     smooth={true}
-                    offset={-100}
-                    duration={500}
+                    offset={-20}
+                    duration={1000}
                     className="flex-row justify-center align-center gap-10 txt-dec color-white cursor-pointer"
                   >
                     <div>

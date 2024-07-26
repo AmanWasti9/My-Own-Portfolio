@@ -53,8 +53,6 @@ const Wrapper = styled.section`
     border-radius: 50%;
     position: fixed;
     bottom: 3rem;
-    right: 5rem;
-    z-index: 999;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,3 +72,7 @@ const Wrapper = styled.section`
     }
   }
 `;
+
+
+// right: 5rem;
+// z-index: 999;

@@ -1,6 +1,6 @@
 .Home_image_div{
     width: 50%;
-    height: 650px;
+    height: 600px;
 }
 .Home_img{
     width: 100%;
@@ -13,9 +13,15 @@
 }
 .m{
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
-
+.motion-paragraph {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+  
 /* Type wirter Animation for Text */
 
 
@@ -114,8 +120,10 @@
 
 
 @media (max-width: 678px){
-    .Home_image_div{
-        display: none;
+
+    .m{
+        display: flex;
+        flex-direction: column;
     }
     .a{
         width: 90%;

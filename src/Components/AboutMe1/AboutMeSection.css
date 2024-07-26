@@ -1,0 +1,98 @@
+.AboutMe__2__imgBx{
+    width: 90%;
+    height: 90%;
+    aspect-ratio: 3/2;
+    mix-blend-mode: color-dodge;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.AboutMe__2{
+    width: 50%;
+}
+
+ 
+ .containers{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+}
+@media (max-width: 1100px){
+    .containers{
+       width: 450px;
+       height: 450px;
+   } 
+}
+
+@media (max-width: 985px){
+    .containers{
+       width: 400px;
+       height: 400px;
+   }
+   .font-size-20{
+    font-size: 17px;
+   }
+}
+
+@media (max-width: 891px){
+    .containers{
+       width: 350px;
+       height: 350px;
+
+   }
+}
+
+
+@media (max-width: 808px){
+    .containers{
+       width: 300px;
+       height: 300px;
+       margin-top: 0;
+   }
+}
+
+ 
+@media (max-width: 681px){
+    .fc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .AboutMe__2{
+        width: 100%;
+    }
+    .ap{
+        margin-top: -20px;
+    }
+    .font-size-20{
+        font-size: 15px;
+    }
+    .bbtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -15,15 +15,17 @@ export default function Projects({ name, img, code, livedemo }) {
         <div className="flex-column">
           <div className="flex-column align-center project-tr">
             <div className="Project__Img__Div">
-              <img src={img} alt="" className="Project__Img" />
+              <img src={img} alt="Syed Amanullah Wasti"  className="Project__Img" />
             </div>
+            <br />
             <div>
               <h1 className="font-size-15 font-weight-500 margin-left-10">
                 {name}
               </h1>
             </div>
-          </div>
 
+          </div>
+<br />
         
 
        

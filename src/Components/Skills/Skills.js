@@ -32,7 +32,7 @@ export default function Skills({name, img, rating}) {
       <div className="Skills__MySkills__1 transition-transform-1-1">
         <div className="flex-row gap-30">
           <div className="Skills__MySkills__1_1"  data-aos="fade-right">
-            <img src={img} alt="" className="Skills__MySkills__1_1_img" />
+            <img src={img} alt="Syed Amanullah Wasti"  className="Skills__MySkills__1_1_img" />
           </div>
           <div className="Skills__MySkills__1_2">
             <div className="flex-column">

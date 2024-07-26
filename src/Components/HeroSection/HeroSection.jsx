@@ -1,48 +1,123 @@
 import React from "react";
 import { Container } from "@mui/material";
 import "./HeroSection.css";
-// import mypic from "../../Images/mypic.png";
 import mypic from "../../Images/am1221.png";
-// import mypic from "../../Images/pic.png";
-import CV from "../../Cv/Amanullah_CV.pdf";
+import { Link as ScrollLink } from "react-scroll";
+import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <div className="margin-top-150">
+    <div>
       <Container>
         <div className="flex-row m justify-center align-center">
           <div className="a">
-            <h2 className="color-red font-size-30 font-weight-500">I am</h2>
-            <h1 className="font-size-50" data-aos="fade-right">
+            <motion.h1
+              animate={{
+                fontSize: "48px",
+                color: "rgb(30, 29, 29)",
+                WebkitTextStroke: "2px red",
+                textStroke: "2px red",
+                letterSpacing: "3px",
+              }}
+            >
               Syed Amanullah Wasti
-            </h1>
+            </motion.h1>
 
-            <div className="con_for_animation">
-              <h2 className="color-red font-size-30 font-weight-600 tw_txt_ani">
-                Full Stack Web Developer ..
-              </h2>
-            </div>
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={{
+                visible: {
+                  transition: {
+                    staggerChildren: 0.4,
+                  },
+                },
+              }}
+            >
+              <motion.p
+                variants={{
+                  hidden: { opacity: 0, x: -20 },
+                  visible: { opacity: 1, x: 0 },
+                }}
+                transition={{ duration: 0.4 }}
+                className="motion-paragraph"
 
-            <h3 className="font-size-18 font-weight-500" data-aos="fade-left">
-              I am a full-stack web developer with skills and expertise in
-              creating and designing websites, as well as a proficiency in
-              various other aspects of full-stack development.
-            </h3>
-            {/* About Me Button */}
-            <div className="margin-top-50" data-aos="fade-right">
-              <a
-                href={CV}
-                download="Amanullah_CV"
-                className="btn font-weight-500"
               >
-                View Resume
-              </a>
-            </div>
+                Fullstack Developer
+              </motion.p>
+              <motion.p
+                variants={{
+                  hidden: { opacity: 0, x: -20 },
+                  visible: { opacity: 1, x: 0 },
+                }}
+                transition={{ duration: 0.4 }}
+                className="motion-paragraph"
+
+              >
+                Problem Solver
+              </motion.p>
+              <motion.p
+                variants={{
+                  hidden: { opacity: 0, x: -20 },
+                  visible: { opacity: 1, x: 0 },
+                }}
+                transition={{ duration: 0.4 }}
+                className="motion-paragraph"
+
+              >
+                Aspiring AI Engineer
+              </motion.p>
+              <motion.p
+                variants={{
+                  hidden: { opacity: 0, x: -20 },
+                  visible: { opacity: 1, x: 0 },
+                }}
+                transition={{ duration: 0.4 }}
+                className="motion-paragraph"
+
+              >
+                Backend Specialist
+              </motion.p>
+              <motion.p
+                variants={{
+                  hidden: { opacity: 0, x: -20 },
+                  visible: { opacity: 1, x: 0 },
+                }}
+                transition={{ duration: 0.4 }}
+                className="motion-paragraph"
+
+              >
+                Creator
+              </motion.p>
+            </motion.div>
+
+            {/* Button */}
+            <motion.div
+              initial={{ x: "-150vw" }}
+              animate={{ x: 0 }}
+              className="margin-top-30"
+            >
+              <ScrollLink
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-20}
+                duration={1000}
+                className="flex-row justify-start align-center gap-10 txt-dec color-white cursor-pointer"
+              >
+                <a className="btn font-weight-500">Learn More</a>
+              </ScrollLink>
+            </motion.div>
+
             {/* Images for Social Media Icons */}
-            <div className="flex-row gap-30 margin-top-50">
+            <div className="flex-row gap-30 margin-top-30">
               <div className="wrapper">
                 <div className="button">
-                  <a href="https://www.facebook.com/aman.wasti.7" target="_blank" className="txt-dec color-white">
+                  <a
+                    href="https://www.facebook.com/aman.wasti.7"
+                    target="_blank"
+                    className="txt-dec color-white"
+                  >
                     <div className="icon">
                       <i className="fab fa-facebook-f"></i>
                     </div>
@@ -50,7 +125,11 @@ export default function Hero() {
                   </a>
                 </div>
                 <div className="button">
-                  <a href="https://www.instagram.com/wastiaman/" target="_blank" className="txt-dec color-white">
+                  <a
+                    href="https://www.instagram.com/wastiaman/"
+                    target="_blank"
+                    className="txt-dec color-white"
+                  >
                     <div className="icon">
                       <i className="fab fa-instagram"></i>
                     </div>
@@ -58,7 +137,11 @@ export default function Hero() {
                   </a>
                 </div>
                 <div className="button">
-                  <a href="https://github.com/AmanWasti9" target="_blank" className="txt-dec color-white">
+                  <a
+                    href="https://github.com/AmanWasti9"
+                    target="_blank"
+                    className="txt-dec color-white"
+                  >
                     <div className="icon">
                       <i class="fa-brands fa-github"></i>
                     </div>
@@ -66,7 +149,11 @@ export default function Hero() {
                   </a>
                 </div>
                 <div className="button">
-                  <a href="https://www.linkedin.com/in/aman-wasti/" target="_blank" className="txt-dec color-white">
+                  <a
+                    href="https://www.linkedin.com/in/aman-wasti/"
+                    target="_blank"
+                    className="txt-dec color-white"
+                  >
                     <div className="icon">
                       <i class="fa-brands fa-linkedin-in"></i>
                     </div>
@@ -76,8 +163,8 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="Home_image_div" data-aos="fade-right">
-            <img src={mypic} alt="" className="Home_img" />
+          <div className="Home_image_div" data-aos="zoom-in">
+            <img src={mypic} alt="Syed Amanullah Wasti" className="Home_img" />
           </div>
         </div>
       </Container>

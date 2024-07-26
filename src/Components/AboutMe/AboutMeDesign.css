@@ -1,0 +1,36 @@
+.About__Main{
+    width: 100%;  
+}
+.about_video_div{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.about_video_div video{
+    width: 100%;
+}
+.about_text_div{
+    width: 40%;
+}
+.flex-in-row{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 767px) {
+  
+    .flex-in-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .About__Main{
+        width: 100%;
+    }
+    .about_video_div{
+        width: 100%;
+    }
+    .about_text_div{
+        width: 100%;
+    }
+}
+  
