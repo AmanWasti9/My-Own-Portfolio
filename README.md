@@ -34,5 +34,6 @@ Virtual Intern at CodSoft
 - Phone: +92 3360348013
 - LinkedIn: linkedin.com/in/aman-wasti
 - GitHub: github.com/AmanWasti9
-
+- Portfolio: https://syed-amanullah-wasti.vercel.app/
+  
 Feel free to customize this README file to better fit your portfolio and projects. If you have any specific sections or details you would like to add, let me know!
