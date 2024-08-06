@@ -13,6 +13,7 @@ import MySQLIcon from "../../Images/MySQLIcon.png";
 import MaterialUiIcon from "../../Images/MaterialUiIcon.png";
 import BootStrapIcon from "../../Images/BootStrapIcon.png";
 import GitIcon from "../../Images/GitIcon.png";
+import nexticon from "../../Images/nexticon.png";
 
 export default function SkillsSection() {
   return (
@@ -31,6 +32,9 @@ export default function SkillsSection() {
             >
               <Grid xs={6} md={4}>
                 <Skills name="React Js" rating={4.5} img={ReactIcon} />
+              </Grid>
+              <Grid xs={6} md={4}>
+                <Skills name="Next Js" rating={3} img={nexticon} />
               </Grid>
               <Grid xs={6} md={4}>
                 <Skills name="HTML5" rating={5} img={HtmlIcon} />

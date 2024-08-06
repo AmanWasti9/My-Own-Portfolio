@@ -7,7 +7,7 @@ import SneakerWeb from "../../Images/sneakerWeb.png";
 import TextUtilsWeb from "../../Images/TextUtilsWeb.png";
 import ExpenseTrackerWeb from "../../Images/ExpenseTrack.png";
 import CovidTrackerWeb from "../../Images/covidtrack.png";
-import samplePortfolio from "../../Images/samplePortfolio.png";
+import pantrytracker from "../../Images/pantrytracker.png";
 import blog from "../../Images/blog.png";
 
 export default function ProjectSections() {
@@ -19,6 +19,7 @@ export default function ProjectSections() {
             Projects
           </h1>
           <br />
+
           <Grid
             container
             rowSpacing={1}
@@ -26,10 +27,10 @@ export default function ProjectSections() {
           >
             <Grid xs={6} md={4}>
               <Projects
-                name="Sneakers Ecommerce Website - React Js"
-                img={SneakerWeb}
-                code="https://github.com/AmanWasti9/shoe-store"
-                livedemo="https://sneaker-store-pi.vercel.app/"
+                name="Pantry Tracker Website - Next Js | LangChain"
+                img={pantrytracker}
+                code="https://github.com/AmanWasti9/pantry-tracker-app"
+                livedemo="https://pantry-tracker-aman.vercel.app/"
               />
             </Grid>
             <Grid xs={6} md={4}>
@@ -40,12 +41,13 @@ export default function ProjectSections() {
                 livedemo="https://beacon-liard.vercel.app/"
               />
             </Grid>
+
             <Grid xs={6} md={4}>
               <Projects
-                name="Book E-commerce Website - HTML | CSS | JS"
-                img={BookWeb}
-                code="https://github.com/AmanWasti9/Book-Website"
-                livedemo="https://amanwasti9.github.io/Book-Website/"
+                name="Sneakers Ecommerce Website - React Js"
+                img={SneakerWeb}
+                code="https://github.com/AmanWasti9/shoe-store"
+                livedemo="https://sneaker-store-pi.vercel.app/"
               />
             </Grid>
 
@@ -75,10 +77,10 @@ export default function ProjectSections() {
             </Grid>
             <Grid xs={6} md={4}>
               <Projects
-                name="Sample Portfolio Website - HTML | CSS | JS"
-                img={samplePortfolio}
-                code="https://github.com/AmanWasti9/Portfolio"
-                livedemo="https://amanwasti9.github.io/Portfolio/"
+                name="Book E-commerce Website - HTML | CSS | JS"
+                img={BookWeb}
+                code="https://github.com/AmanWasti9/Book-Website"
+                livedemo="https://amanwasti9.github.io/Book-Website/"
               />
             </Grid>
           </Grid>
