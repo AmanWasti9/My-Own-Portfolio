@@ -9,6 +9,7 @@ import ExpenseTrackerWeb from "../../Images/ExpenseTrack.png";
 import CovidTrackerWeb from "../../Images/covidtrack.png";
 import pantrytracker from "../../Images/pantrytracker.png";
 import blog from "../../Images/blog.png";
+import NexoCard from "../../Images/NexoCardWeb.png";
 
 export default function ProjectSections() {
   return (
@@ -27,18 +28,27 @@ export default function ProjectSections() {
           >
             <Grid xs={6} md={4}>
               <Projects
-                name="Pantry Tracker Website - Next Js | LangChain"
-                img={pantrytracker}
-                code="https://github.com/AmanWasti9/pantry-tracker-app"
-                livedemo="https://pantry-tracker-aman.vercel.app/"
+                name="NeXoCard - React Js | Firebase |Three Js"
+                img={NexoCard}
+                code="https://github.com/AmanWasti9/AI-FlashCard"
+                livedemo="https://ai-flash-card.vercel.app/"
               />
             </Grid>
+
             <Grid xs={6} md={4}>
               <Projects
                 name="Bloging Website - React Js | Spring Boot | MySQL"
                 img={blog}
                 code="https://github.com/AmanWasti9/Blogging-App-Frontend"
                 livedemo="https://beacon-liard.vercel.app/"
+              />
+            </Grid>
+            <Grid xs={6} md={4}>
+              <Projects
+                name="Pantry Tracker - Next Js | Firebase | LangChain"
+                img={pantrytracker}
+                code="https://github.com/AmanWasti9/pantry-tracker-app"
+                livedemo="https://pantry-tracker-aman.vercel.app/"
               />
             </Grid>
 
