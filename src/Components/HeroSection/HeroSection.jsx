@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "@mui/material";
 import "./HeroSection.css";
-import mypic from "../../Images/ASign.png";
+// import mypic from "../../Images/ASign.png";
 import { Link as ScrollLink } from "react-scroll";
 import { motion } from "framer-motion";
 
@@ -160,7 +160,7 @@ export default function Hero() {
           </div>
           <div className="Home_image_div" data-aos="zoom-in">
             <img
-              src={mypic}
+              src="/Images/ASign.png"
               alt="Syed Amanullah Wasti"
               className="Home_img"
               loading="lazy"

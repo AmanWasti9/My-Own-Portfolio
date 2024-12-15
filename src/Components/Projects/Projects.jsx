@@ -1,7 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import { FaCode } from "react-icons/fa";
-import liveServer from "../../Images/liveServer.png";
+// import liveServer from "../../Images/liveServer.png";
 
 export default function Projects({ name, img, code, livedemo }) {
   return (
@@ -47,7 +47,11 @@ export default function Projects({ name, img, code, livedemo }) {
               className="flex-row justify-center align-center txt-none color-white"
               style={{ width: "40px", backgroundColor: "black" }}
             >
-              <img src={liveServer} alt="" style={{ width: "100%" }} />
+              <img
+                src="/Images/liveServer.png"
+                alt=""
+                style={{ width: "100%" }}
+              />
             </a>
           </div>
         </div>
