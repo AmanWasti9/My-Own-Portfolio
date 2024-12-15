@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "@mui/material";
 import "./HeroSection.css";
-import mypic from "../../Images/am1221.png";
+import mypic from "../../Images/ASign.png";
 import { Link as ScrollLink } from "react-scroll";
 import { motion } from "framer-motion";
 
@@ -41,7 +41,6 @@ export default function Hero() {
                 }}
                 transition={{ duration: 0.4 }}
                 className="motion-paragraph"
-
               >
                 Fullstack Developer
               </motion.p>
@@ -52,7 +51,6 @@ export default function Hero() {
                 }}
                 transition={{ duration: 0.4 }}
                 className="motion-paragraph"
-
               >
                 Problem Solver
               </motion.p>
@@ -63,7 +61,6 @@ export default function Hero() {
                 }}
                 transition={{ duration: 0.4 }}
                 className="motion-paragraph"
-
               >
                 Aspiring AI Engineer
               </motion.p>
@@ -74,7 +71,6 @@ export default function Hero() {
                 }}
                 transition={{ duration: 0.4 }}
                 className="motion-paragraph"
-
               >
                 Backend Specialist
               </motion.p>
@@ -85,7 +81,6 @@ export default function Hero() {
                 }}
                 transition={{ duration: 0.4 }}
                 className="motion-paragraph"
-
               >
                 Creator
               </motion.p>
@@ -164,7 +159,12 @@ export default function Hero() {
             </div>
           </div>
           <div className="Home_image_div" data-aos="zoom-in">
-            <img src={mypic} alt="Syed Amanullah Wasti" className="Home_img" />
+            <img
+              src={mypic}
+              alt="Syed Amanullah Wasti"
+              className="Home_img"
+              loading="lazy"
+            />
           </div>
         </div>
       </Container>

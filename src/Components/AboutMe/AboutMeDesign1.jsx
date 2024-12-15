@@ -18,11 +18,16 @@ export default function AboutMeDesign1({
       >
         <div data-aos="fade-right" className="about_video_div">
           <video loop autoPlay muted>
-            <source src={source} type="video/mp4" alt="Syed Amanullah Wasti" />
+            <source
+              src={source}
+              type="video/mp4"
+              alt="Syed Amanullah Wasti"
+              loading="lazy"
+            />
           </video>
         </div>
 
-        <div 
+        <div
           className="about_text_div"
           style={{
             display: "flex",

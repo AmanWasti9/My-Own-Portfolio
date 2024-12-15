@@ -34,6 +34,7 @@ export default function Skills({ name, img, rating }) {
               src={img}
               alt="Syed Amanullah Wasti"
               className="Skills__MySkills__1_1_img"
+              loading="lazy"
             />
           </div>
           <div className="Skills__MySkills__1_2">

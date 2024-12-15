@@ -15,7 +15,12 @@ export default function Projects({ name, img, code, livedemo }) {
         <div className="flex-column">
           <div className="flex-column align-center project-tr">
             <div className="Project__Img__Div">
-              <img src={img} alt="Syed Amanullah Wasti"  className="Project__Img" />
+              <img
+                src={img}
+                alt="Syed Amanullah Wasti"
+                className="Project__Img"
+                loading="lazy"
+              />
             </div>
             <br />
             <div>
@@ -23,29 +28,24 @@ export default function Projects({ name, img, code, livedemo }) {
                 {name}
               </h1>
             </div>
-
           </div>
-<br />
-        
+          <br />
 
-       
-
-         
           <div className="flex-row justify-end code-icons gap-10">
             <a
               href={code}
               target="_blank"
               className="flex-row justify-center align-center txt-none color-white"
-              style={{ width: "40px", backgroundColor:'black'  }}
+              style={{ width: "40px", backgroundColor: "black" }}
             >
-              <FaCode style={{ width: "100%"}} />
+              <FaCode style={{ width: "100%" }} />
             </a>
 
             <a
               href={livedemo}
               target="_blank"
               className="flex-row justify-center align-center txt-none color-white"
-              style={{ width: "40px", backgroundColor:'black'  }}
+              style={{ width: "40px", backgroundColor: "black" }}
             >
               <img src={liveServer} alt="" style={{ width: "100%" }} />
             </a>

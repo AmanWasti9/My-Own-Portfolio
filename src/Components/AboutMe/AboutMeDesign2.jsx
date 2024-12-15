@@ -50,7 +50,12 @@ export default function AboutMeDesign2({
         </div>
         <div data-aos="fade-left" className="about_video_div">
           <video loop autoPlay muted>
-            <source src={source} type="video/mp4" alt="Syed Amanullah Wasti" />
+            <source
+              src={source}
+              type="video/mp4"
+              alt="Syed Amanullah Wasti"
+              loading="lazy"
+            />
           </video>
         </div>
       </div>
