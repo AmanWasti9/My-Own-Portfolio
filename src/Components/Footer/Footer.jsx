@@ -2,9 +2,9 @@ import React from "react";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Container } from "@mui/material";
 import "./Footer.css";
-import LinkedIn from "../../Images/linkedin.png";
-import Instagram from "../../Images/instagram.png";
-import Facebook from "../../Images/facebook.png";
+// import LinkedIn from "/Images/linkedin.png";
+// import Instagram from "/Images/instagram.png";
+// import Facebook from "/Images/facebook.png";
 import { Link as ScrollLink } from "react-scroll";
 
 export default function Footer() {
@@ -20,7 +20,7 @@ export default function Footer() {
           >
             <Grid xs={12} sm={6} md={3}>
               <div className="flex-column">
-              <br />
+                <br />
 
                 <div className="Footer__1_h2">
                   <h2>Syed Amanullah Wasti</h2>
@@ -36,7 +36,7 @@ export default function Footer() {
             </Grid>
             <Grid xs={12} sm={6} md={3}>
               <div className="flex-column">
-              <br />
+                <br />
 
                 <div className="Footer__1_h2">
                   <h2>Explore</h2>
@@ -99,7 +99,7 @@ export default function Footer() {
             </Grid>
             <Grid xs={12} sm={6} md={3}>
               <div className="flex-column">
-              <br />
+                <br />
 
                 <div className="Footer__1_h2">
                   <h2>Explore GitHub</h2>
@@ -123,7 +123,7 @@ export default function Footer() {
             </Grid>
             <Grid xs={12} sm={6} md={3}>
               <div className="flex-column">
-              <br />
+                <br />
 
                 <div className="Footer__1_h2">
                   <h2>Contact Us</h2>
@@ -152,7 +152,7 @@ export default function Footer() {
                           alt="LinkedIn"
                           width="30"
                           height="30"
-                          src={LinkedIn}
+                          src="/Images/linkedin.png"
                           className="transition-all-0-4s"
                         />
                       </a>
@@ -167,7 +167,7 @@ export default function Footer() {
                           alt="Instagram"
                           width="30"
                           height="30"
-                          src={Instagram}
+                          src="/Images/instagram.png"
                           className="transition-all-0-4s"
                         />
                       </a>
@@ -182,7 +182,7 @@ export default function Footer() {
                           alt="Facebook"
                           width="30"
                           height="30"
-                          src={Facebook}
+                          src="/Images/facebook.png"
                           className="transition-all-0-4s"
                         />
                       </a>

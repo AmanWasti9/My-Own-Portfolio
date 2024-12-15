@@ -2,14 +2,14 @@ import { Container } from "@mui/material";
 import React from "react";
 import Projects from "./Projects";
 import Grid from "@mui/material/Unstable_Grid2";
-import BookWeb from "../../Images/bookweb.png";
-import SneakerWeb from "../../Images/sneakerWeb.png";
-import TextUtilsWeb from "../../Images/TextUtilsWeb.png";
-import ExpenseTrackerWeb from "../../Images/ExpenseTrack.png";
-import CovidTrackerWeb from "../../Images/covidtrack.png";
-import pantrytracker from "../../Images/pantrytracker.png";
-import blog from "../../Images/blog.png";
-import NexoCard from "../../Images/NexoCardWeb.png";
+// import BookWeb from "../../Images/bookweb.png";
+// import SneakerWeb from "../../Images/sneakerWeb.png";
+// import TextUtilsWeb from "../../Images/TextUtilsWeb.png";
+// import ExpenseTrackerWeb from "../../Images/ExpenseTrack.png";
+// import CovidTrackerWeb from "../../Images/covidtrack.png";
+// import pantrytracker from "../../Images/pantrytracker.png";
+// import blog from "../../Images/blog.png";
+// import NexoCard from "../../Images/NexoCardWeb.png";
 
 export default function ProjectSections() {
   return (
@@ -29,7 +29,7 @@ export default function ProjectSections() {
             <Grid xs={6} md={4}>
               <Projects
                 name="NeXoCard - React Js | Firebase |Three Js"
-                img={NexoCard}
+                img="/Images/NexoCardWeb.png"
                 code="https://github.com/AmanWasti9/AI-FlashCard"
                 livedemo="https://ai-flash-card.vercel.app/"
               />
@@ -38,7 +38,7 @@ export default function ProjectSections() {
             <Grid xs={6} md={4}>
               <Projects
                 name="Bloging Website - React Js | Spring Boot | MySQL"
-                img={blog}
+                img="/Images/blog.png"
                 code="https://github.com/AmanWasti9/Blogging-App-Frontend"
                 livedemo="https://beacon-liard.vercel.app/"
               />
@@ -46,7 +46,7 @@ export default function ProjectSections() {
             <Grid xs={6} md={4}>
               <Projects
                 name="Pantry Tracker - Next Js | Firebase | LangChain"
-                img={pantrytracker}
+                img="/Images/pantrytracker.png"
                 code="https://github.com/AmanWasti9/pantry-tracker-app"
                 livedemo="https://pantry-tracker-aman.vercel.app/"
               />
@@ -55,7 +55,7 @@ export default function ProjectSections() {
             <Grid xs={6} md={4}>
               <Projects
                 name="Sneakers Ecommerce Website - React Js"
-                img={SneakerWeb}
+                img="/Images/sneakerWeb.png"
                 code="https://github.com/AmanWasti9/shoe-store"
                 livedemo="https://sneaker-store-pi.vercel.app/"
               />
@@ -64,7 +64,7 @@ export default function ProjectSections() {
             <Grid xs={6} md={4}>
               <Projects
                 name="COVID19 Tracker - React Js"
-                img={CovidTrackerWeb}
+                img="/Images/covidtrack.png"
                 code="https://github.com/AmanWasti9/COVID-Tracker-React"
                 livedemo="https://covid19-tracker-orpin-sigma.vercel.app/"
               />
@@ -72,7 +72,7 @@ export default function ProjectSections() {
             <Grid xs={6} md={4}>
               <Projects
                 name="Expense Tracker - React Js"
-                img={ExpenseTrackerWeb}
+                img="/Images/ExpenseTrack.png"
                 code="https://github.com/AmanWasti9/Expense-Track-React"
                 livedemo="https://amanwasti9.github.io/Expense-Track-React/"
               />
@@ -80,7 +80,7 @@ export default function ProjectSections() {
             <Grid xs={6} md={4}>
               <Projects
                 name="TextUtils - React Js"
-                img={TextUtilsWeb}
+                img="/Images/TextUtilsWeb.png"
                 code="https://github.com/AmanWasti9/TextUtils"
                 livedemo="https://amanwasti9.github.io/TextUtils/"
               />
@@ -88,7 +88,7 @@ export default function ProjectSections() {
             <Grid xs={6} md={4}>
               <Projects
                 name="Book E-commerce Website - HTML | CSS | JS"
-                img={BookWeb}
+                img="/Images/bookweb.png"
                 code="https://github.com/AmanWasti9/Book-Website"
                 livedemo="https://amanwasti9.github.io/Book-Website/"
               />
